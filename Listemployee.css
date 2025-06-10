@@ -1,0 +1,45 @@
+.container {
+  margin-top: 30px;
+}
+
+.text-center {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #50342c;
+}
+
+.btn-primary {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  font-weight: 500;
+}
+
+.table {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.text-danger {
+  color: red;
+  font-weight: bold;
+}

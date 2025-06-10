@@ -1,0 +1,59 @@
+/* EmployeeComponent.css */
+
+/* Background with three-color gradient */
+body {
+  background: linear-gradient(135deg, hwb(78 0% 0%), hwb(32 13% 43%), #20c997);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container row styling */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Form label styling */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Form input field spacing */
+.form-group,
+.form-froup {
+  margin-bottom: 20px;
+}
+
+/* Validation feedback */
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875rem;
+}
+
+/* Submit button styling */
+.btn-success {
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
